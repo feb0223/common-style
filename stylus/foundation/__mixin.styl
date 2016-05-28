@@ -1,0 +1,57 @@
+//
+// mixin
+// --------------------------------------------------
+
+space()
+	$prefix = arguments[0] || ''
+	
+	for $space in $spaces
+		// margin
+		// -------------------------
+		.u-m-{$space[0]}{$prefix}
+			margin $space[1]
+		
+		// margin top
+		// -------------------------
+		.u-mt-{$space[0]}{$prefix}
+			margin-top $space[1]
+		
+		// margin right
+		// -------------------------
+		.u-mr-{$space[0]}{$prefix}
+			margin-right $space[1]
+		
+		// margin bottom
+		// -------------------------
+		.u-mb-{$space[0]}{$prefix}
+			margin-bottom $space[1]
+		
+		// margin left
+		// -------------------------
+		.u-ml-{$space[0]}{$prefix}
+			margin-left $space[1]
+		
+		// padding
+		// -------------------------
+		.u-p-{$space[0]}{$prefix}
+			padding $space[1]
+		
+		// padding top
+		// -------------------------
+		.u-pt-{$space[0]}{$prefix}
+			padding-top $space[1]
+		
+		// padding right
+		// -------------------------
+		.u-pr-{$space[0]}{$prefix}
+			padding-right $space[1]
+		
+		// padding bottom
+		// -------------------------
+		.u-pb-{$space[0]}{$prefix}
+			padding-bottom $space[1]
+		
+		// padding left
+		// -------------------------
+		.u-pl-{$space[0]}{$prefix}
+			padding-left $space[1]

@@ -1,0 +1,22 @@
+@charset "utf-8"
+
+@import "nib"
+
+// variable
+@import commonStylePath + "responsive/foundation/_variables.styl"
+@import "foundation/_variables.styl"
+
+@import commonStylePath + "foundation/_mixin.styl"
+@import commonStylePath + "foundation/_override_nib.styl"
+
+// reset
+@import "normalize"
+global-normalize()
+@import commonStylePath +  "responsive/foundation/_reset.styl"
+
+// utility
+@import commonStylePath + "object/utility/_index.styl"
+@import commonStylePath + "responsive/object/utility/_responsive.styl"
+
+// grid system
+@import commonStylePath + "vendor/_bootstrap_grid.styl" 

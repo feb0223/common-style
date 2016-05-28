@@ -1,0 +1,84 @@
+//
+// Responsive
+// --------------------------------------------------
+
+@import "../../foundation/_variables.styl"
+@import "../../../foundation/__mixin.styl"
+
+// PCサイズ
+.u-visible
+	&-pc
+		display block
+	&-pc--inline
+		display inline
+	
+	&-tb
+		display none
+	&-tb--inline
+		display none
+	
+	&-sp
+		display none
+	&-sp--inline
+		display none
+	&-sp--flex
+		display none
+
+if $tablet-width != 0
+	// タブレットサイズ
+	@media screen and (min-width: $sp-width+1) and (max-width: ($tablet-width))
+		.u-visible
+			&-pc
+				display none
+			&-pc--inline
+				display none
+			
+			&-tb
+				display block
+			&-tb--inline
+				display inline
+			
+			&-sp
+				display none
+			&-sp--inline
+				display none
+			&-sp--flex
+				display none
+		
+		.u-hidden-tb
+			display none
+		.u-width-full-tb
+			width 100% !important
+		.u-flex-tb
+			display flex
+		
+		space('-tb')
+
+// スマホサイズ
+@media (max-width: $sp-width)
+	.u-visible
+		&-pc
+			display none
+		&-pc--inline
+			display none
+		
+		&-tb
+			display none
+		&-tb--inline
+			display none
+		
+		&-sp
+			display block
+		&-sp--inline
+			display inline
+		&-sp--flex
+			display flex
+	
+	.u-hidden-sp
+		display none
+	.u-width-full-sp
+		width 100% !important
+	.u-flex-sp
+		display flex
+	
+	space('-sp')
