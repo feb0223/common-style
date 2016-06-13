@@ -676,6 +676,248 @@ input[type="checkbox"] {
 .u-visible-sp--flex {
   display: none;
 }
+@media screen and (min-width: 421px) and (max-width: 700px) {
+  .u-visible-pc {
+    display: none;
+  }
+  .u-visible-pc--inline {
+    display: none;
+  }
+  .u-visible-tb {
+    display: block;
+  }
+  .u-visible-tb--inline {
+    display: inline;
+  }
+  .u-visible-sp {
+    display: none;
+  }
+  .u-visible-sp--inline {
+    display: none;
+  }
+  .u-visible-sp--flex {
+    display: none;
+  }
+  .u-hidden-tb {
+    display: none;
+  }
+  .u-width-full-tb {
+    width: 100% !important;
+  }
+  .u-flex-tb {
+    display: flex;
+  }
+  .u-m-xxl-tb {
+    margin: 50px;
+  }
+  .u-mt-xxl-tb {
+    margin-top: 50px;
+  }
+  .u-mr-xxl-tb {
+    margin-right: 50px;
+  }
+  .u-mb-xxl-tb {
+    margin-bottom: 50px;
+  }
+  .u-ml-xxl-tb {
+    margin-left: 50px;
+  }
+  .u-p-xxl-tb {
+    padding: 50px;
+  }
+  .u-pt-xxl-tb {
+    padding-top: 50px;
+  }
+  .u-pr-xxl-tb {
+    padding-right: 50px;
+  }
+  .u-pb-xxl-tb {
+    padding-bottom: 50px;
+  }
+  .u-pl-xxl-tb {
+    padding-left: 50px;
+  }
+  .u-m-xl-tb {
+    margin: 40px;
+  }
+  .u-mt-xl-tb {
+    margin-top: 40px;
+  }
+  .u-mr-xl-tb {
+    margin-right: 40px;
+  }
+  .u-mb-xl-tb {
+    margin-bottom: 40px;
+  }
+  .u-ml-xl-tb {
+    margin-left: 40px;
+  }
+  .u-p-xl-tb {
+    padding: 40px;
+  }
+  .u-pt-xl-tb {
+    padding-top: 40px;
+  }
+  .u-pr-xl-tb {
+    padding-right: 40px;
+  }
+  .u-pb-xl-tb {
+    padding-bottom: 40px;
+  }
+  .u-pl-xl-tb {
+    padding-left: 40px;
+  }
+  .u-m-l-tb {
+    margin: 30px;
+  }
+  .u-mt-l-tb {
+    margin-top: 30px;
+  }
+  .u-mr-l-tb {
+    margin-right: 30px;
+  }
+  .u-mb-l-tb {
+    margin-bottom: 30px;
+  }
+  .u-ml-l-tb {
+    margin-left: 30px;
+  }
+  .u-p-l-tb {
+    padding: 30px;
+  }
+  .u-pt-l-tb {
+    padding-top: 30px;
+  }
+  .u-pr-l-tb {
+    padding-right: 30px;
+  }
+  .u-pb-l-tb {
+    padding-bottom: 30px;
+  }
+  .u-pl-l-tb {
+    padding-left: 30px;
+  }
+  .u-m-m-tb {
+    margin: 20px;
+  }
+  .u-mt-m-tb {
+    margin-top: 20px;
+  }
+  .u-mr-m-tb {
+    margin-right: 20px;
+  }
+  .u-mb-m-tb {
+    margin-bottom: 20px;
+  }
+  .u-ml-m-tb {
+    margin-left: 20px;
+  }
+  .u-p-m-tb {
+    padding: 20px;
+  }
+  .u-pt-m-tb {
+    padding-top: 20px;
+  }
+  .u-pr-m-tb {
+    padding-right: 20px;
+  }
+  .u-pb-m-tb {
+    padding-bottom: 20px;
+  }
+  .u-pl-m-tb {
+    padding-left: 20px;
+  }
+  .u-m-s-tb {
+    margin: 16px;
+  }
+  .u-mt-s-tb {
+    margin-top: 16px;
+  }
+  .u-mr-s-tb {
+    margin-right: 16px;
+  }
+  .u-mb-s-tb {
+    margin-bottom: 16px;
+  }
+  .u-ml-s-tb {
+    margin-left: 16px;
+  }
+  .u-p-s-tb {
+    padding: 16px;
+  }
+  .u-pt-s-tb {
+    padding-top: 16px;
+  }
+  .u-pr-s-tb {
+    padding-right: 16px;
+  }
+  .u-pb-s-tb {
+    padding-bottom: 16px;
+  }
+  .u-pl-s-tb {
+    padding-left: 16px;
+  }
+  .u-m-xs-tb {
+    margin: 10px;
+  }
+  .u-mt-xs-tb {
+    margin-top: 10px;
+  }
+  .u-mr-xs-tb {
+    margin-right: 10px;
+  }
+  .u-mb-xs-tb {
+    margin-bottom: 10px;
+  }
+  .u-ml-xs-tb {
+    margin-left: 10px;
+  }
+  .u-p-xs-tb {
+    padding: 10px;
+  }
+  .u-pt-xs-tb {
+    padding-top: 10px;
+  }
+  .u-pr-xs-tb {
+    padding-right: 10px;
+  }
+  .u-pb-xs-tb {
+    padding-bottom: 10px;
+  }
+  .u-pl-xs-tb {
+    padding-left: 10px;
+  }
+  .u-m-xxs-tb {
+    margin: 8px;
+  }
+  .u-mt-xxs-tb {
+    margin-top: 8px;
+  }
+  .u-mr-xxs-tb {
+    margin-right: 8px;
+  }
+  .u-mb-xxs-tb {
+    margin-bottom: 8px;
+  }
+  .u-ml-xxs-tb {
+    margin-left: 8px;
+  }
+  .u-p-xxs-tb {
+    padding: 8px;
+  }
+  .u-pt-xxs-tb {
+    padding-top: 8px;
+  }
+  .u-pr-xxs-tb {
+    padding-right: 8px;
+  }
+  .u-pb-xxs-tb {
+    padding-bottom: 8px;
+  }
+  .u-pl-xxs-tb {
+    padding-left: 8px;
+  }
+}
 @media (max-width: 420px) {
   .u-visible-pc {
     display: none;
@@ -971,7 +1213,7 @@ input[type="checkbox"] {
     width: inherit;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 701px) {
   .container {
     width: inherit;
   }
@@ -1396,7 +1638,7 @@ input[type="checkbox"] {
     margin-left: 0;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 701px) {
   .col-md-1,
   .col-md-2,
   .col-md-3,
@@ -1787,7 +2029,7 @@ input[type="checkbox"] {
     display: inline-block !important;
   }
 }
-@media (min-width: 421px) and (max-width: 991px) {
+@media (min-width: 421px) and (max-width: 700px) {
   .visible-sm {
     display: block !important;
   }
@@ -1802,22 +2044,22 @@ input[type="checkbox"] {
     display: table-cell !important;
   }
 }
-@media (min-width: 421px) and (max-width: 991px) {
+@media (min-width: 421px) and (max-width: 700px) {
   .visible-sm-block {
     display: block !important;
   }
 }
-@media (min-width: 421px) and (max-width: 991px) {
+@media (min-width: 421px) and (max-width: 700px) {
   .visible-sm-inline {
     display: inline !important;
   }
 }
-@media (min-width: 421px) and (max-width: 991px) {
+@media (min-width: 421px) and (max-width: 700px) {
   .visible-sm-inline-block {
     display: inline-block !important;
   }
 }
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 701px) and (max-width: 1199px) {
   .visible-md {
     display: block !important;
   }
@@ -1832,17 +2074,17 @@ input[type="checkbox"] {
     display: table-cell !important;
   }
 }
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 701px) and (max-width: 1199px) {
   .visible-md-block {
     display: block !important;
   }
 }
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 701px) and (max-width: 1199px) {
   .visible-md-inline {
     display: inline !important;
   }
 }
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 701px) and (max-width: 1199px) {
   .visible-md-inline-block {
     display: inline-block !important;
   }
@@ -1882,12 +2124,12 @@ input[type="checkbox"] {
     display: none !important;
   }
 }
-@media (min-width: 421px) and (max-width: 991px) {
+@media (min-width: 421px) and (max-width: 700px) {
   .hidden-sm {
     display: none !important;
   }
 }
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 701px) and (max-width: 1199px) {
   .hidden-md {
     display: none !important;
   }

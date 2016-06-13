@@ -1,7 +1,6 @@
 var stylusOptions = {
 	define: {
-		commonStylePath: '../../../../stylus/',
-		bootstrapPath: '../../node_modules/bootstrap-styl/bootstrap/'
+		commonStylePath: '../../../../stylus/'
 	},
 	compress: false,
 	linenos: false

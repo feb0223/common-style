@@ -10,10 +10,10 @@ percentage($n)
 		0
 	else
 		unit($n * 100, "%")
-@import bootstrapPath + 'mixins/clearfix.styl'
-@import bootstrapPath + 'mixins/grid-framework.styl'
-@import bootstrapPath + 'mixins/grid.styl'
-@import bootstrapPath + 'mixins/responsive-visibility.styl'
+@import '../../node_modules/bootstrap-styl/bootstrap/mixins/clearfix.styl'
+@import '../../node_modules/bootstrap-styl/bootstrap/mixins/grid-framework.styl'
+@import '../../node_modules/bootstrap-styl/bootstrap/mixins/grid.styl'
+@import '../../node_modules/bootstrap-styl/bootstrap/mixins/responsive-visibility.styl'
 
 // overwrite variables
 $grid-gutter-width = 0
@@ -25,12 +25,12 @@ $screen-sm = $sp-width + 1
 if $tablet-width != 0
 	$screen-md = $tablet-width + 1
 
-@import bootstrapPath + 'variables.styl'
-@import bootstrapPath + 'utilities.styl'
+@import '../../node_modules/bootstrap-styl/bootstrap/variables.styl'
+@import '../../node_modules/bootstrap-styl/bootstrap/utilities.styl'
 
 // components
-@import bootstrapPath + 'grid.styl'
-@import bootstrapPath + 'responsive-utilities.styl'
+@import '../../node_modules/bootstrap-styl/bootstrap/grid.styl'
+@import '../../node_modules/bootstrap-styl/bootstrap/responsive-utilities.styl'
 
 // scaffolding
 *
