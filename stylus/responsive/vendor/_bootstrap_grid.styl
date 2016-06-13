@@ -1,5 +1,5 @@
-/*!
- * Bootstrap v3.3.1 (http://getbootstrap.com)
+/*!!
+ * Bootstrap v3.3.6 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
@@ -10,10 +10,10 @@ percentage($n)
 		0
 	else
 		unit($n * 100, "%")
-@import '../../node_modules/bootstrap-styl/bootstrap/mixins/clearfix.styl'
-@import '../../node_modules/bootstrap-styl/bootstrap/mixins/grid-framework.styl'
-@import '../../node_modules/bootstrap-styl/bootstrap/mixins/grid.styl'
-@import '../../node_modules/bootstrap-styl/bootstrap/mixins/responsive-visibility.styl'
+@import '../../vendor/bootstrap-stylus_5.0.5/mixins/clearfix.styl'
+@import '../../vendor/bootstrap-stylus_5.0.5/mixins/grid-framework.styl'
+@import '../../vendor/bootstrap-stylus_5.0.5/mixins/grid.styl'
+@import '../../vendor/bootstrap-stylus_5.0.5/mixins/responsive-visibility.styl'
 
 // overwrite variables
 $grid-gutter-width = 0
@@ -25,12 +25,12 @@ $screen-sm = $sp-width + 1
 if $tablet-width != 0
 	$screen-md = $tablet-width + 1
 
-@import '../../node_modules/bootstrap-styl/bootstrap/variables.styl'
-@import '../../node_modules/bootstrap-styl/bootstrap/utilities.styl'
+@import '../../vendor/bootstrap-stylus_5.0.5/variables.styl'
+@import '../../vendor/bootstrap-stylus_5.0.5/utilities.styl'
 
 // components
-@import '../../node_modules/bootstrap-styl/bootstrap/grid.styl'
-@import '../../node_modules/bootstrap-styl/bootstrap/responsive-utilities.styl'
+@import '../../vendor/bootstrap-stylus_5.0.5/grid.styl'
+@import '../../vendor/bootstrap-stylus_5.0.5/responsive-utilities.styl'
 
 // scaffolding
 *
