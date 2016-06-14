@@ -21,9 +21,9 @@ $container-sm = inherit
 $container-md = inherit
 $container-lg = inherit
 $screen-xs = 320px
-$screen-sm = $sp-width + 1
-if $tablet-width != 0
-	$screen-md = $tablet-width + 1
+$screen-sm = $sp-max-width + 1
+if $tablet-max-width != 0
+	$screen-md = $tablet-max-width + 1
 
 @import '../../vendor/bootstrap-stylus_5.0.5/variables.styl'
 @import '../../vendor/bootstrap-stylus_5.0.5/utilities.styl'

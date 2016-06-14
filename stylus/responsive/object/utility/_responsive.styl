@@ -24,9 +24,9 @@
 	&-pc--inline
 		display inline
 
-if $tablet-width != 0
+if $tablet-max-width != 0
 	// タブレットサイズ
-	@media screen and (min-width: $sp-width+1) and (max-width: ($tablet-width))
+	@media screen and (min-width: $sp-max-width+1) and (max-width: ($tablet-max-width))
 		.u-visible
 			&-pc
 				display none
@@ -55,7 +55,7 @@ if $tablet-width != 0
 		space('-tb')
 
 // スマホサイズ
-@media (max-width: $sp-width)
+@media (max-width: $sp-max-width)
 	.u-visible
 		&-pc
 			display none
