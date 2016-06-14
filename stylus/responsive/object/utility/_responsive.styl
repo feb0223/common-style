@@ -7,11 +7,6 @@
 
 // PCサイズ
 .u-visible
-	&-pc
-		display block
-	&-pc--inline
-		display inline
-	
 	&-tb
 		display none
 	&-tb--inline
@@ -23,6 +18,11 @@
 		display none
 	&-sp--flex
 		display none
+		
+	&-pc
+		display block
+	&-pc--inline
+		display inline
 
 if $tablet-width != 0
 	// タブレットサイズ
@@ -33,17 +33,17 @@ if $tablet-width != 0
 			&-pc--inline
 				display none
 			
-			&-tb
-				display block
-			&-tb--inline
-				display inline
-			
 			&-sp
 				display none
 			&-sp--inline
 				display none
 			&-sp--flex
 				display none
+			
+			&-tb
+				display block
+			&-tb--inline
+				display inline
 		
 		.u-hidden-tb
 			display none
