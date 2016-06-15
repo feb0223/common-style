@@ -10,3 +10,15 @@ arrow()
 	border-top solid 2px #fff
 	border-right @border-top
 	transform rotate(45deg)
+
+media-sp()
+	@media (max-width: $sp-max-width)
+		{block}
+
+media-tb()
+	@media (min-width: $sp-max-width+1) and (max-width: $tablet-max-width)
+		{block}
+
+media-sp-tb()
+	@media (max-width: $tablet-max-width)
+		{block}
