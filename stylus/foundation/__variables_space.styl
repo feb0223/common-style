@@ -10,4 +10,28 @@ $s-small   ?= 16px
 $s-x-small ?= 10px
 $s-xx-small ?= 8px
 
-$spaces = ('xxxl' $s-xxx-large)('xxl' $s-xx-large)('xl' $s-x-large)('l' $s-large)('m' $s-medium)('s' $s-small)('xs' $s-x-small)('xxs' $s-xx-small)('none' 0)
+$base-size = 8px
+
+$spaces = {
+	xxxl: $s-xxx-large,
+	xxl: $s-xx-large,
+	xl: $s-x-large,
+	l: $s-large,
+	m: $s-medium,
+	s: $s-small,
+	xs: $s-x-small,
+	xxs:$s-xx-small,
+	none: 0,
+	'8': $base-size * 1,
+	'16': $base-size * 2,
+	'24': $base-size * 3,
+	'32': $base-size * 4,
+	'40': $base-size * 5,
+	'48': $base-size * 6,
+	'56': $base-size * 7,
+	'64': $base-size * 8,
+	'72': $base-size * 9,
+	'80': $base-size * 10,
+	'88': $base-size * 11,
+	'96': $base-size * 12,
+}

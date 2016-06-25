@@ -5,65 +5,65 @@
 space()
 	$prefix = arguments[0] || ''
 	
-	for $space in $spaces
+	for $key, $value in $spaces
 		// margin
 		// -------------------------
-		.u-m-{$space[0]}{$prefix}
-			margin $space[1]
+		.u-m-{$key}{$prefix}
+			margin $value
 		
 		// margin top
 		// -------------------------
-		.u-mt-{$space[0]}{$prefix}
-			margin-top $space[1]
+		.u-mt-{$key}{$prefix}
+			margin-top $value
 		
 		// margin right
 		// -------------------------
-		.u-mr-{$space[0]}{$prefix}
-			margin-right $space[1]
+		.u-mr-{$key}{$prefix}
+			margin-right $value
 		
 		// margin bottom
 		// -------------------------
-		.u-mb-{$space[0]}{$prefix}
-			margin-bottom $space[1]
+		.u-mb-{$key}{$prefix}
+			margin-bottom $value
 		
 		// margin left
 		// -------------------------
-		.u-ml-{$space[0]}{$prefix}
-			margin-left $space[1]
+		.u-ml-{$key}{$prefix}
+			margin-left $value
 		
 		// margin right left
 		// -------------------------
-		.u-mrl-{$space[0]}{$prefix}
-			margin-right $space[1]
-			margin-left $space[1]
+		.u-mrl-{$key}{$prefix}
+			margin-right $value
+			margin-left $value
 		
 		// padding
 		// -------------------------
-		.u-p-{$space[0]}{$prefix}
-			padding $space[1]
+		.u-p-{$key}{$prefix}
+			padding $value
 		
 		// padding top
 		// -------------------------
-		.u-pt-{$space[0]}{$prefix}
-			padding-top $space[1]
+		.u-pt-{$key}{$prefix}
+			padding-top $value
 		
 		// padding right
 		// -------------------------
-		.u-pr-{$space[0]}{$prefix}
-			padding-right $space[1]
+		.u-pr-{$key}{$prefix}
+			padding-right $value
 		
 		// padding bottom
 		// -------------------------
-		.u-pb-{$space[0]}{$prefix}
-			padding-bottom $space[1]
+		.u-pb-{$key}{$prefix}
+			padding-bottom $value
 		
 		// padding left
 		// -------------------------
-		.u-pl-{$space[0]}{$prefix}
-			padding-left $space[1]
+		.u-pl-{$key}{$prefix}
+			padding-left $value
 		
 		// padding right left
 		// -------------------------
-		.u-prl-{$space[0]}{$prefix}
-			padding-right $space[1]
-			padding-left $space[1]
+		.u-prl-{$key}{$prefix}
+			padding-right $value
+			padding-left $value
