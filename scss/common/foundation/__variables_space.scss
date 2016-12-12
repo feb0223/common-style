@@ -9,6 +9,7 @@ $s-medium: 20px;
 $s-small: 16px;
 $s-x-small: 10px;
 $s-xx-small: 8px;
+$s-xxx-small: 4px;
 
 $base-size: 8px;
 
@@ -21,6 +22,7 @@ $spaces:(
 	s: $s-small,
 	xs: $s-x-small,
 	xxs:$s-xx-small,
+	xxxs:$s-xxx-small,
 	'8': $base-size * 1,
 	'16': $base-size * 2,
 	'24': $base-size * 3,
