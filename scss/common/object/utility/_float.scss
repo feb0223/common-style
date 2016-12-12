@@ -1,0 +1,13 @@
+//
+// Float
+// --------------------------------------------------
+
+.u-flt-l {
+  float: left;
+}
+.u-flt-r {
+  float: right;
+}
+.u-cf {
+	@extend %clearfix;
+}

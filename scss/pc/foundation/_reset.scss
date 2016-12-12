@@ -1,0 +1,72 @@
+//
+// Reset
+// --------------------------------------------------
+body {
+	font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+	font-size: $medium;
+	line-height: 1.4;
+	color: $tc-default;
+	background-color: $bgc-default;
+	margin: 0;
+}
+h1, h2, h3, h4 {
+	margin: 0;
+	padding: 0;
+	font-size: inherit;
+	font-weight: normal;
+}
+ol, ul, dl, dt, dd {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+p {
+	margin: 0;
+}
+a {
+	text-decoration: none;
+	color: $tc-default;
+	outline: none;
+}
+i {
+	font-style: inherit;
+}
+button {
+	appearance: none;
+	background: none;
+	border: none;
+	padding: 0;
+	margin: 0;
+	background: transparent;
+	cursor: pointer;
+	outline: none;
+}
+iframe {
+	border: none;
+}
+hr {
+	margin: 0;
+	border: none;
+}
+[type="text"],
+[type="password"],
+[type="email"],
+[type="number"],
+[type="tel"] {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	border: none;
+	appearance: none;
+	line-height: 1.4;
+}
+[type="checkbox"] {
+	margin: 0;
+}
+select {
+	outline: none;
+}
+textarea {
+	outline: none;
+	appearance: none;
+}

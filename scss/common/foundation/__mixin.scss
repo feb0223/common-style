@@ -3,68 +3,83 @@
 // common-style内での参照用
 // --------------------------------------------------
 
-space()
-	$prefix = arguments[0] || ''
+@mixin space($prefix: "") {
 	
-	for $key, $value in $spaces
+	@each $key, $value in $spaces {
+		$name: #{$key}#{$prefix};
+		
 		// margin
 		// -------------------------
-		.u-m-{$key}{$prefix}
-			margin $value
+		.u-m-#{$name} {
+			margin: $value;
+		}
 		
 		// margin top
 		// -------------------------
-		.u-mt-{$key}{$prefix}
-			margin-top $value
+		.u-mt-#{$name} {
+			margin-top: $value;
+		}
 		
 		// margin right
 		// -------------------------
-		.u-mr-{$key}{$prefix}
-			margin-right $value
+		.u-mr-#{$name} {
+			margin-right: $value;
+		}
 		
 		// margin bottom
 		// -------------------------
-		.u-mb-{$key}{$prefix}
-			margin-bottom $value
+		.u-mb-#{$name} {
+			margin-bottom: $value;
+		}
 		
 		// margin left
 		// -------------------------
-		.u-ml-{$key}{$prefix}
-			margin-left $value
+		.u-ml-#{$name} {
+			margin-left: $value;
+		}
 		
 		// margin right left
 		// -------------------------
-		.u-mrl-{$key}{$prefix}
-			margin-right $value
-			margin-left $value
+		.u-mrl-#{$name} {
+			margin-right: $value;
+			margin-left: $value;
+		}
 		
 		// padding
 		// -------------------------
-		.u-p-{$key}{$prefix}
-			padding $value
+		.u-p-#{$name} {
+			padding: $value;
+		}
 		
 		// padding top
 		// -------------------------
-		.u-pt-{$key}{$prefix}
-			padding-top $value
+		.u-pt-#{$name} {
+			padding-top: $value;
+		}
 		
 		// padding right
 		// -------------------------
-		.u-pr-{$key}{$prefix}
-			padding-right $value
+		.u-pr-#{$name} {
+			padding-right: $value;
+		}
 		
 		// padding bottom
 		// -------------------------
-		.u-pb-{$key}{$prefix}
-			padding-bottom $value
+		.u-pb-#{$name} {
+			padding-bottom: $value;
+		}
 		
 		// padding left
 		// -------------------------
-		.u-pl-{$key}{$prefix}
-			padding-left $value
+		.u-pl-#{$name} {
+			padding-left: $value;
+		}
 		
 		// padding right left
 		// -------------------------
-		.u-prl-{$key}{$prefix}
-			padding-right $value
-			padding-left $value
+		.u-prl-#{$name} {
+			padding-right: $value;
+			padding-left: $value;
+		}
+	}
+}

@@ -1,19 +1,18 @@
-// Variables space
+// space
 // common-style内での参照用
 // -------------------------
+$s-xxx-large: 60px;
+$s-xx-large: 50px;
+$s-x-large: 40px;
+$s-large: 30px;
+$s-medium: 20px;
+$s-small: 16px;
+$s-x-small: 10px;
+$s-xx-small: 8px;
 
-$s-xxx-large ?= 60px
-$s-xx-large ?= 50px
-$s-x-large ?= 40px
-$s-large   ?= 30px
-$s-medium  ?= 20px
-$s-small   ?= 16px
-$s-x-small ?= 10px
-$s-xx-small ?= 8px
+$base-size: 8px;
 
-$base-size = 8px
-
-$spaces = {
+$spaces:(
 	xxxl: $s-xxx-large,
 	xxl: $s-xx-large,
 	xl: $s-x-large,
@@ -22,7 +21,6 @@ $spaces = {
 	s: $s-small,
 	xs: $s-x-small,
 	xxs:$s-xx-small,
-	none: 0,
 	'8': $base-size * 1,
 	'16': $base-size * 2,
 	'24': $base-size * 3,
@@ -35,4 +33,5 @@ $spaces = {
 	'80': $base-size * 10,
 	'88': $base-size * 11,
 	'96': $base-size * 12,
-}
+	none: 0
+);

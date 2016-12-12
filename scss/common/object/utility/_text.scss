@@ -1,0 +1,89 @@
+//
+// Text
+// requires: _variables.styl
+// --------------------------------------------------
+
+
+// font size
+// -------------------------
+.u-fs-xxl {
+	font-size: $xx-large;
+}
+.u-fs-xl {
+	font-size: $x-large;
+}
+.u-fs-l {
+	font-size: $large;
+}
+.u-fs-m {
+	font-size: $medium;
+}
+.u-fs-s {
+	font-size: $small;
+}
+.u-fs-xs {
+	font-size: $x-small;
+}
+.u-fs-xxs {
+	font-size: $xx-small;
+}
+.u-fs-none {
+	font-size: 0;
+}
+	
+// text color
+// -------------------------
+.u-tc-gray {
+	color: $tc-gray;
+}
+.u-tc-light-gray {
+	color: $tc-light-gray;
+}
+.u-tc-dark-gray {
+	color: $tc-dark-gray;
+}
+.u-tc-white {
+	color: $tc-white;
+}
+.u-tc-red {
+	color: $tc-red;
+}
+
+// font style
+// -------------------------
+.u-fw-n {
+	font-weight: normal;
+}
+.u-fw-b {
+	font-weight: bold;
+}
+
+// text decoration
+// -------------------------
+.u-td-u {
+	text-decoration: underline;
+}
+.u-td-n {
+	text-decoration: none;
+}
+
+// line height
+// -------------------------
+.u-lh-xl {
+	line-height: 1.8;
+}
+.u-lh-l {
+	line-height: 1.6;
+}
+.u-lh-m {
+	line-height: 1.4;
+}
+.u-lh-s {
+	line-height: 1.2;
+}
+.u-lh-xs {
+	line-height: 1;
+}
+.u-lh-none {
+	line-height: 0;
+}

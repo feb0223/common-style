@@ -1,0 +1,21 @@
+//
+// Flex
+// --------------------------------------------------
+
+.u-flex-none {
+  flex-grow: inherit;
+  flex: inherit;
+}
+.u-flex-g1 {
+  flex-grow: 1;
+  flex: 1;
+}
+.u-jc-fs {
+  justify-content: flex-start;
+}
+.u-jc-fe {
+  justify-content: flex-end;
+}
+.u-jc-c {
+  justify-content: center;
+}

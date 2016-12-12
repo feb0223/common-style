@@ -1,0 +1,20 @@
+//
+// PC Variable
+// --------------------------------------------------
+
+// font size
+// -------------------------
+$xxx-large: 22px;
+$xx-large: 20px;
+$x-large: 18px;
+$large: 16px;
+$medium: 14px;
+$small: 12px;
+$x-small: 11px;
+$xx-small: 10px;
+
+// space
+@import "../../common/foundation/__variables_space";
+
+// color
+@import "../../common/foundation/__variables_color";

@@ -1,0 +1,50 @@
+//
+// mixin
+// --------------------------------------------------
+
+%clearfix {
+	*zoom: 1;
+	&:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+}
+
+@mixin arrow() {
+	content: '';
+	display: inline-block;
+	width: 6px;
+	height: 6px;
+	margin: -4px 0 0;
+	border-top: solid 2px #fff;
+	border-right: solid 2px #fff;
+	transform: rotate(45deg);
+}
+
+@mixin transition() {
+	transition: all .2s ease-in-out;
+}
+
+@mixin centering() {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+@mixin media-sp() {
+	@media (max-width: $sp-max-width) {
+		@content;
+	}
+}
+@mixin media-tb() {
+	@media (min-width: $sp-max-width+1) and (max-width: $tablet-max-width) {
+		@content;
+	}
+}
+@mixin media-sp-tb() {
+	@media (max-width: $tablet-max-width) {
+		@content;
+	}
+}
